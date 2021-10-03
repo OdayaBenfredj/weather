@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0,0,0, 0.5);
+}
+.popup_inner {
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  top: 25%;
+  bottom: 25%;
+  margin: auto;
+  background: white;
+}
+.crop-container {
+  background-color: aqua;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 80px;
+}
+
+.controls {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 50%;
+  transform: translateX(-50%);
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.slider {
+  padding: 22px 0px;
+}
+
+ .scrollbar1  {    
+   white-space: nowrap;
+   background-color: #fff;
+   overflow-x: auto;
+    /* width: 50%; */
+  }
+  /*overflow-y: hidden; */
+
+.descraption {
+  color:rgb(19, 114, 114);
+  font-size:20px;
+  font-family:monospace;
+  text-align: center;
+  margin: auto;
+  flex: 100%}
+
+.averaged  {
+  color: darkcyan;
+   font-size:80px;
+   font-family:Cursive;
+   margin: auto;
+   flex: 50%;}
+
+.icon { flex: 100; }
+
+.minMax{color:gray ;       
+  font-size:20px;
+  font-family:Cursive ;
+  flex: 50%;}
+
+.degreeDiv{
+  /* overflow-x: scroll;
+
+white-space: nowrap; */
+  width: 300px;
+  display: inline-block;
+  /* border: rgb(19, 114, 114); */
+border-color:darkcyan ;
+border-right:solid;
+   /* flex-wrap: wrap; */
+   /* border: darkcyan; */
+  }
+
+
+/*  
+  overflow-x: scroll;
+  overflow: auto;
+white-space: nowrap; */
+
